@@ -1,0 +1,284 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>安装Arduino IDE &mdash; T-Watch Docs</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> T-Watch Document
+          
+
+          
+            
+            <img src="../_static/logo2.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">简介</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">快速上手</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basics/index.html">入门使用篇</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">进阶开发篇</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../download/index.html">下载资源</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../related-links/index.html">相关链接</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">T-Watch Document</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>安装Arduino IDE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/get-started/windows-setup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="arduino-ide">
+<h1>安装Arduino IDE<a class="headerlink" href="#arduino-ide" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id1">
+<h2>1.引言<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>欢迎来到Arduino！在您开始编程之旅之前，您需要设置软件</p>
+<p>以编写您的电路板Arduino软件（IDE）允许您编写程序并将其上传到您的电路板。在Arduino Software页面中，您将找到两个选项：</p>
+<ol class="arabic simple">
+<li><p>如果您有可靠的Internet连接，则应使用在线IDE（Arduino Web Editor）。它允许您将草图保存在云中，从任何设备上获取它们并备份。您将始终拥有最新版本的IDE，而无需安装更新或社区生成的库。</p></li>
+<li><p>如果您希望脱机工作，则应使用最新版本的 <a class="reference external" href="https://www.arduino.cc/en/Main/Software?setlang=cn">桌面IDE</a></p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>强烈建议安装桌面版IDE。当然，有机会你也可以尝试使用在线版IDE</p>
+</div>
+<img alt="../_images/w_install1.png" src="../_images/w_install1.png" />
+</div>
+<div class="section" id="id2">
+<h2>2.下载<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/w_install2.png" src="../_images/w_install2.png" />
+<p>从下载页面获取最新版本。您可以选择安装程序（.exe）和Zip包。我们建议您使用第一个直接安装使用Arduino软件（IDE）所需的一切，包括驱动程序。使用Zip包，您需要手动安装驱动程序。如果要创建便携式安装，Zip文件也很有用 。
+下载完成后，继续安装，当您从操作系统收到警告时，请允许驱动程序安装过程。</p>
+<div class="section" id="arduino">
+<h3>2.1 Arduino下载：<a class="headerlink" href="#arduino" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference download external" download="" href="https://downloads.arduino.cc/arduino-1.8.9-windows.exe"><code class="xref download docutils literal notranslate"><span class="pre">Windows安装包</span></code></a>。</p></li>
+<li><p><a class="reference download external" download="" href="https://downloads.arduino.cc/arduino-1.8.9-windows.zip"><code class="xref download docutils literal notranslate"><span class="pre">Windows免安装Zip包</span></code></a>。</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>3.安装<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/DRV_Capture1.png"><img alt="../_images/DRV_Capture1.png" src="../_images/DRV_Capture1.png" style="width: 431.0px; height: 298.0px;" /></a>
+<p class="caption"><span class="caption-text">选择要安装的组件</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/DRV_Capture2.png"><img alt="../_images/DRV_Capture2.png" src="../_images/DRV_Capture2.png" style="width: 431.0px; height: 306.0px;" /></a>
+<p class="caption"><span class="caption-text">选择安装目录（建议不要安装在系统盘–C盘中）</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="../_images/DRV_Capture3.png"><img alt="../_images/DRV_Capture3.png" src="../_images/DRV_Capture3.png" style="width: 434.0px; height: 304.0px;" /></a>
+<p class="caption"><span class="caption-text">正在安装，安装完成后点击close</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>4.配置<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/das2.gif"><img alt="../_images/das2.gif" src="../_images/das2.gif" style="width: 695.0px; height: 521.0px;" /></a>
+</div>
+<div class="section" id="id5">
+<h3>4.1首选项配置<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>写软件之前，我们要配置一些东西（工作文件夹和语言等）</p></li>
+<li><p>打开文件-&gt;首选项，更换目录。</p></li>
+<li><p>可以更换语言，中英日德法，全部支持。</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol class="arabic simple">
+<li><p>默认会在C盘我的文档。因以后我们需要的很多拓展库都会默认生产在这个文件夹，所以我们最好把路径设在非系统盘中。</p></li>
+<li><p>语言设置完之后，需要重启软件，才会生效。</p></li>
+</ol>
+</div>
+<div class="section" id="indices-and-tables">
+<h4>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference internal" href="../genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="../py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="../search.html"><span class="std std-ref">Search Page</span></a> :numbered:</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, LilyGo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #252525;
+    }
+    /* Sidebar */
+    .wy-nav-side {
+      background: #3f3f3f;
+    }
+  </style>
+
+
+</body>
+</html>

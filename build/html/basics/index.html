@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Basics &mdash; T-Watch Docs</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Windows平台Arduino的安装步骤" href="windows-setup.html" />
+    <link rel="prev" title="Getting Started" href="../get-started/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> T-Watch Document
+          
+
+          
+            
+            <img src="../_static/logo2.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../get-started/index.html">Getting started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Basics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arduino-installation">2. Arduino installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="windows-setup.html">2.1 Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux-setup.html">2.2 Linux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="macos-setup.html">2.3 MacOS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#arduino-esp32-construction">3. Arduino-ESP32 construction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#setting-up-the-development-environment">Setting up the development environment</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#install-git">3.1 Install Git</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#download-steps">Download steps:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#inspection-steps">Inspection steps:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pre-build-configuration">3.2 Pre-build configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Steps：</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cloning-a-remote-repository">3.3 Cloning a remote repository</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#create-a-folder">Create a folder:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#enter-the-folder">Enter the folder：</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clone-a-remote-repository">Clone a remote repository:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#demo-video">Demo video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-the-compilation-toolchain">3.4 Installing the Compilation Toolchain</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Demo video</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../download/index.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../related-links/index.html">Related links</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">T-Watch Document</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Basics</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/basics/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="basics">
+<h1>Basics<a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>1. Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Welcome to Arduino! Before you start your programming journey, you need to set up the software.</p>
+<p>To write your board Arduino software (IDE) allows you to write programs and upload them to your board. In the Arduino Software page you will find two options:</p>
+<ol class="arabic simple">
+<li><p>If you have a reliable Internet connection, you should use the online IDE (Arduino Web Editor). It allows you to save sketches in the cloud, get them from any device and back them up. You will always have the latest version of the IDE without having to install an update or a community-generated library.</p></li>
+<li><p>If you want to work offline, you should use the latest version of the <a class="reference external" href="https://www.arduino.cc/en/Main/Software?setlang=cn">Desktop IDE</a></p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>It is recommended to install the desktop IDE</p>
+</div>
+<img alt="basics/../../_static/w_install1.png" src="basics/../../_static/w_install1.png" />
+</div>
+<div class="section" id="arduino-installation">
+<h2>2. Arduino installation<a class="headerlink" href="#arduino-installation" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference external" href="../basics/windows-setup.html"><img alt="windows-logo" src="../_images/windows-logo.png" /></a></p></td>
+<td><p><a class="reference external" href="../basics/linux-setup.html"><img alt="linux-logo" src="../_images/linux-logo.png" /></a></p></td>
+<td><p><a class="reference external" href="../basics/macos-setup.html"><img alt="macos-logo" src="../_images/macos-logo.png" /></a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../basics/windows-setup.html">Windows</a></p></td>
+<td><p><a class="reference external" href="../basics/linux-setup.html">Linux</a></p></td>
+<td><p><a class="reference external" href="../basics/macos-setup.html">Mac OS</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="arduino-esp32-construction">
+<h2>3. Arduino-ESP32 construction<a class="headerlink" href="#arduino-esp32-construction" title="Permalink to this headline">¶</a></h2>
+<p>Please follow the detailed steps below to complete the installation process.</p>
+<div class="section" id="setting-up-the-development-environment">
+<h3>Setting up the development environment<a class="headerlink" href="#setting-up-the-development-environment" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="#basics-install-git"><span class="std std-ref">3.1 Install Git</span></a></p></li>
+<li><p><a class="reference internal" href="#basics-build-config"><span class="std std-ref">3.2 Pre-build configuration</span></a></p></li>
+<li><p><a class="reference internal" href="#basics-git-clone"><span class="std std-ref">3.3 Cloning a remote repository</span></a></p></li>
+<li><p><a class="reference internal" href="#basics-setup-toolchain"><span class="std std-ref">3.4 Installing the Compilation Toolchain</span></a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="install-git">
+<span id="basics-install-git"></span><h2>3.1 Install Git<a class="headerlink" href="#install-git" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="download-steps">
+<h3>Download steps:<a class="headerlink" href="#download-steps" title="Permalink to this headline">¶</a></h3>
+<p>Download the installation package Git.exe from the <a class="reference external" href="https://git-scm.com/downloads">Git official website</a></p>
+<img alt="basics/../../_static/git_install.png" src="basics/../../_static/git_install.png" />
+</div>
+<div class="section" id="steps">
+<h3>Steps:<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<p>After the download is complete, double click to open,
+Always click Next until you are done.</p>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="basics/../../_static/git.gif"><img alt="basics/../../_static/git.gif" src="basics/../../_static/git.gif" /></a>
+<p class="caption"><span class="caption-text">Installation process</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="inspection-steps">
+<h3>Inspection steps:<a class="headerlink" href="#inspection-steps" title="Permalink to this headline">¶</a></h3>
+<p>After the installation is complete, click the right mouse button. You will see <strong>Git Bash Here</strong>
+The description has been successfully installed.
+We will use this software later</p>
+</div>
+</div>
+<div class="section" id="pre-build-configuration">
+<span id="basics-build-config"></span><h2>3.2 Pre-build configuration<a class="headerlink" href="#pre-build-configuration" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center" id="id9">
+<a class="reference internal image-reference" href="basics/../../_static/git_clone1.png"><img alt="basics/../../_static/git_clone1.png" src="basics/../../_static/git_clone1.png" /></a>
+<p class="caption"><span class="caption-text">Open the folder where Arduino is located</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Click on the icon, then right click and select <a href="#id1"><span class="problematic" id="id2">``</span></a>Open folder where ``</p>
+</div>
+<div class="section" id="id3">
+<h3>Steps：<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Select <strong>hardware</strong> -&gt;</p></li>
+<li><p>Mouse ** Right click ** -&gt;</p></li>
+<li><p>Click <strong>Git Bash Here</strong></p></li>
+</ul>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="basics/../../_static/git_clone2.gif"><img alt="basics/../../_static/git_clone2.gif" src="basics/../../_static/git_clone2.gif" /></a>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">hardware</span></code>: Arduino stores folders of supported hardware</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Git</span> <span class="pre">Bash</span> <span class="pre">Here</span></code>: can open Git Bash terminal in the current folder</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cloning-a-remote-repository">
+<span id="basics-git-clone"></span><h2>3.3 Cloning a remote repository<a class="headerlink" href="#cloning-a-remote-repository" title="Permalink to this headline">¶</a></h2>
+<p>The purpose of this process is to clone a remote repository from the GitHub website.</p>
+<p>In order to make the construction process easier and prevent the problem of incomplete files, it is not appropriate to use the direct download zip here.</p>
+<div class="section" id="create-a-folder">
+<h3>Create a folder:<a class="headerlink" href="#create-a-folder" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir espressif
+</pre></div>
+</div>
+</div>
+<div class="section" id="enter-the-folder">
+<h3>Enter the folder：<a class="headerlink" href="#enter-the-folder" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> espressif
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">mkdir</span></code>：make directory,Program function -&gt; create a folder</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">espressif</span></code>：ESP32, ESP8266 and other devices are set in this folder</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code>：change directory,Program function -&gt; change the current path</p></li>
+</ul>
+<p>Bash is a shell, and <code class="docutils literal notranslate"><span class="pre">mkdir</span></code> <code class="docutils literal notranslate"><span class="pre">cd</span></code> is a built-in bash command.</p>
+</div>
+</div>
+<div class="section" id="clone-a-remote-repository">
+<h3>Clone a remote repository:<a class="headerlink" href="#clone-a-remote-repository" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone --recursive https://github.com/espressif/arduino-esp32.git esp32
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code>：One of the git action instructions to clone a remote repository</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--recursive</span></code>：One of the git action instructions to download the repository submodule directly</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">esp32</span></code>：Write <code class="docutils literal notranslate"><span class="pre">esp32</span></code> at the back of the link to change the name of the cloned repository folder. The default is Arduino-esp32.</p></li>
+</ul>
+<p>This must be set to esp32, because arduino will read <code class="docutils literal notranslate"><span class="pre">arduino/hardware/espressif/esp32</span></code> by default.</p>
+</div>
+</div>
+<div class="section" id="demo-video">
+<h3>Demo video<a class="headerlink" href="#demo-video" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="basics/../../_static/git_clone3.gif"><img alt="basics/../../_static/git_clone3.gif" src="basics/../../_static/git_clone3.gif" /></a>
+</div>
+</div>
+</div>
+<div class="section" id="installing-the-compilation-toolchain">
+<span id="basics-setup-toolchain"></span><h2>3.4 Installing the Compilation Toolchain<a class="headerlink" href="#installing-the-compilation-toolchain" title="Permalink to this headline">¶</a></h2>
+<p>Next, install esptool, compile toolchain and other tools.</p>
+<p><a href="#id4"><span class="problematic" id="id5">**</span></a>Congratulations, this is the last step of arduino-esp32, and the victory is in sight! **</p>
+<p>We just click on get.exe and the script will automatically download the tool for us.</p>
+<div class="section" id="id6">
+<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Enter <code class="docutils literal notranslate"><span class="pre">arduino/hardware/espressif/esp32</span></code></p></li>
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">tools</span></code></p></li>
+<li><p>Double-click <code class="docutils literal notranslate"><span class="pre">get.exe</span></code> to automatically download dependencies</p></li>
+<li><p>Waiting for download, cmd is automatically closed after the download is complete</p></li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h3>Demo video<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="basics/../../_static/git_clone4.gif"><img alt="basics/../../_static/git_clone4.gif" src="basics/../../_static/git_clone4.gif" /></a>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="windows-setup.html" class="btn btn-neutral float-right" title="Windows平台Arduino的安装步骤" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../get-started/index.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, LilyGo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #252525;
+    }
+    /* Sidebar */
+    .wy-nav-side {
+      background: #3f3f3f;
+    }
+  </style>
+
+
+</body>
+</html>
