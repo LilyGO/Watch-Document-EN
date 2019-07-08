@@ -2,17 +2,41 @@
 T-Watch Introduction
 ====================
 
+
 .. image:: ../_static/image3.jpg
 
-Product introduction
-====================
+Product Categories
+===================
 
-.. toctree::
-   :maxdepth: 1
+==================  ==================  ==================
+|Standtrd|_           |SIM800L|_         |GPS|_
+------------------  ------------------  ------------------
+`Standtrd`_           `SIM800L`_         `GPS`_
+------------------  ------------------  ------------------
+|MPR121|_              |Lora+GPS|_      |To be continued|_
+------------------  ------------------  ------------------
+`MPR121`_              `Lora+GPS`_      `To be continued`_
+==================  ==================  ==================
 
-   Introduction <introduce>
+.. |Standtrd| image:: ../_static/std1.png
+.. _Standtrd: ../introduction/standtrd.html
 
-============== 
+.. |MPR121| image:: ../_static/basic01.png
+.. _MPR121: ../introduction/mpr4.html
+
+.. |SIM800L| image:: ../_static/SIM02.png
+.. _SIM800L: ../introduction/sim02.html
+
+.. |GPS| image:: ../_static/GPS3.png
+.. _GPS: ../introduction/gps8m03.html
+
+.. |Lora+GPS| image:: ../_static/s76g05.png
+.. _Lora+GPS: ../introduction/s76g05.html
+
+.. |To be continued| image:: ../_static/tobe06.png
+.. _To be continued: ../introduction/tobe06.html
+
+
 
 Hardware overview
 ==================
@@ -30,6 +54,16 @@ Category
 
 1.Technical Parameters
 ========================
+
+
+- T-Watch onboard:
+
+  - 1.54 inch LCD capacitive touch screen: ST7789V
+  - Touch screen chip: FT5206
+  - Three-axis accelerometer: BMA423
+  - PMU Power Management: AXP202
+  - RTC clock module: PCF8563
+
 
 .. figure:: ../_static/get_started2.jpg 
    :scale: 40
@@ -69,34 +103,7 @@ Interface switching video
   :align: left
 
 
-- T-Watch onboard:
 
-  - 1.54 inch LCD capacitive touch screen: ST7789V
-  - Touch screen chip: FT5206
-  - Three-axis accelerometer: BMA423
-  - PMU Power Management: AXP202
-  - RTC clock module: PCF8563
-
-  - Expand the interface:
-
-    - Support microphone: MSM261S4030H0
-    - Support SPI TF memory card
-    - 2 digital I/Os: GPIO25, GPIO26 (supports ADC, DAC)
-    - Support I2C, UART, SPI communication protocol
-
-.. important::
-  
-  The expansion function is the upgrade model and the expansion module. The basic model does not have the following functions.
-
-- Extended features:
-
-  - Lora module: SX1276
-  - GPS communication module: NEO M8N/6M
-  - GPRS communication module: SIM800L
-  - Heart Rate Oxygen Sensor: MAX30102
-  - Capacitive touch sensor: MRP121Q
-  - Six-axis sensor: MPU6050
-  - Wireless charging
 .. _appearance-specification:
 
 2. Appearance specifications

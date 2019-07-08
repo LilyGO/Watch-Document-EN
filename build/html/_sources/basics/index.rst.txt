@@ -16,10 +16,10 @@ To write your board Arduino software (IDE) allows you to write programs and uplo
 2. If you want to work offline, you should use the latest version of the `Desktop IDE <https://www.arduino.cc/en/Main/Software?setlang=cn>`_ 
 
 .. important:: It is recommended to install the desktop IDE
-.. image:: ../../_static/w_install1.png
+.. image:: ../_static/w_install1.png
 
 ..
- .. image:: ../../_static/das.gif
+ .. image:: ../_static/das.gif
  
  
 
@@ -32,6 +32,7 @@ To write your board Arduino software (IDE) allows you to write programs and uplo
     2.1 Windows <windows-setup>
     2.2 Linux <linux-setup> 
     2.3 MacOS <macos-setup>
+
 +-------------------+-------------------+-------------------+
 | |windows-logo|    | |linux-logo|      | |macos-logo|      |
 +-------------------+-------------------+-------------------+
@@ -73,7 +74,7 @@ Setting up the development environment
 
 
 Download steps:
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 Download the installation package Git.exe from the `Git official website <https://git-scm.com/downloads>`_
 
@@ -92,7 +93,8 @@ Always click Next until you are done.
    Installation process
 
 Inspection steps:
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+
 After the installation is complete, click the right mouse button. You will see **Git Bash Here**
 The description has been successfully installed.
 We will use this software later
@@ -100,13 +102,14 @@ We will use this software later
 .. _basics-build-config:
 
 3.2 Pre-build configuration
-=======================
+=============================
 
 .. figure:: ../../_static/git_clone1.png 
    :scale: 100
    :align: center
 
    Open the folder where Arduino is located
+
 .. note::
 
     Click on the icon, then right click and select ``Open folder where `` 
@@ -135,7 +138,7 @@ The purpose of this process is to clone a remote repository from the GitHub webs
 In order to make the construction process easier and prevent the problem of incomplete files, it is not appropriate to use the direct download zip here.
 
 Create a folder:
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
