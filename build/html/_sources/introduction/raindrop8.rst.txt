@@ -6,7 +6,7 @@ The raindrop sensor is a sensing device that is mainly used to detect the amount
 
 .. image:: ../_static/rain.png
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description

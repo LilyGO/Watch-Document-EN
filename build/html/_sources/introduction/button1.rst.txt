@@ -7,7 +7,7 @@ Button module is a push button that will output a high signal when pressed.
 .. image:: ../_static/but.gif
 
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description

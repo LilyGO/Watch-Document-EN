@@ -6,7 +6,7 @@ Door Contact is a device for security alarm. It consists of a wireless transmitt
 
 .. image:: ../_static/door.gif
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description

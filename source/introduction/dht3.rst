@@ -6,7 +6,7 @@ DHT12 module provides a digital serial interface to measure humidity and tempera
 
 .. image:: ../_static/DHT.png
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  ====================================  
  ESP32           Attributes               Description

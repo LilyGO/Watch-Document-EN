@@ -6,7 +6,7 @@ A passive infrared sensor (PIR sensor) is an electronic sensor. PIR sensors are 
 
 .. image:: ../_static/pir.gif
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description

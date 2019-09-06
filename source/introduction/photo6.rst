@@ -6,7 +6,7 @@ photoresistance module used to measure light intensity. It can determine the pre
 
 .. image:: ../_static/ph.gif
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description

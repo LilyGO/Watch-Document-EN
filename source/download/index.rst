@@ -8,7 +8,11 @@ Application download
 * Graphic programming
 
     * :download:`Pictoblox <https://drive.google.com/uc?export=download&confirm=hRp-&id=1fex-Tbp-1AugOQgAAaWOlllx4pYW76wj>`
-    
+
+* Demo example
+
+    * :download:`Software <../_static/software.zip>`
+
 Document download
 ******************
 

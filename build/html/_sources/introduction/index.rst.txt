@@ -93,6 +93,23 @@ Expansion module
 .. |To be continued| image:: ../_static/tobe06.png
 .. _To be continued: ../introduction/tobe06.html
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :numbered:
+   
+   Button <button1> 
+   Buzzer <buzzer2>
+   WS2812 <rgb4>
+   DHT12_Sensor <dht3>
+   Pir <pir5>
+   Photoresistance <photo6> 
+   Relay <relay7>
+   Raindrop <raindrop8>
+   Door_Contact <door9>
+   Potentiometer <poten10>
+   Soil_Moisture <soil11>
+
 Hardware overview
 ==================
 

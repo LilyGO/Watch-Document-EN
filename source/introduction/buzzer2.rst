@@ -6,7 +6,7 @@ Buzzer module can produce a range of sound tones depending on the input frequenc
 
 .. image:: ../_static/beep.gif
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  ====================================  
  ESP32           Attributes               Description

@@ -6,7 +6,7 @@ Soil moisture sensors measure the volumetric water content in soil.
 
 .. image:: ../_static/soil.png
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description

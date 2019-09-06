@@ -6,7 +6,7 @@ Potentiometer, the most common use is volume control, or as a position or angle 
 
 .. image:: ../_static/poten.png
 
-1.Pin details
+Pin details
 +++++++++++++++++
 =============== =============  =========================  
  ESP32           Attributes          Description
