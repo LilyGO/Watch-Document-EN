@@ -2,6 +2,13 @@
 Download
 **********
 
+Application download
+*********************
+
+* Graphic programming
+
+    * :download:`Pictoblox <https://drive.google.com/uc?export=download&confirm=hRp-&id=1fex-Tbp-1AugOQgAAaWOlllx4pYW76wj>`
+    
 Document download
 ******************
 
@@ -9,7 +16,7 @@ Document download
     
     * :download:`T_Watch schematic <../_static/schematic.jpg>`
 * Data sheet
-
+    
     * :download:`USB to serial chip:CP2104 <https://www.silabs.com/documents/public/data-sheets/cp2104.pdf>`
     * :download:`IPS capacitive touch screen:ST7735V <https://www.newhavendisplay.com/appnotes/datasheets/LCDs/ST7789V.pdf>`
     * :download:`CMU power management：AXP202 <http://igorx.irk.ru/datasheet/N9z7wouuCuHQm917GdSc.pdf>`
@@ -17,6 +24,12 @@ Document download
     * :download:`GPS communication module: NEO M8N/6M <https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf>`
     * :download:`Lora module:Semtech SX1276 <>`
     * :download:`FT6236U <https://www.buydisplay.com/download/ic/FT6236-FT6336-FT6436L-FT6436_Datasheet.pdf>`
+
+    * :download:`DHT11 <https://www.mouser.com/ds/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf>`
+    * :download:`Pir AS312 <https://forum.mysensors.org/assets/uploads/files/1494013712469-pir-as312.pdf>`
+    * :download:`Photoresistance <https://github.com/Xinyuan-LilyGO/twatch-series-modules/blob/master/images/C242259_6F097B0D9CA6F711B2C508F05DAFF16F.pdf>`
+    * :download:`WS2812 <https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf>`
+    
 
 Driver Download
 ****************

@@ -9,17 +9,17 @@ Product Categories
 ===================
 
 ==================  ==================  ==================
-|Standtrd|_           |SIM800L|_         |GPS|_
+|Standard|_           |SIM800L|_         |GPS|_
 ------------------  ------------------  ------------------
-`Standtrd`_           `SIM800L`_         `GPS`_
+`Standard`_           `SIM800L`_         `GPS`_
 ------------------  ------------------  ------------------
 |MPR121|_              |Lora+GPS|_      |To be continued|_
 ------------------  ------------------  ------------------
 `MPR121`_              `Lora+GPS`_      `To be continued`_
 ==================  ==================  ==================
 
-.. |Standtrd| image:: ../_static/std1.png
-.. _Standtrd: ../introduction/standtrd.html
+.. |Standard| image:: ../_static/std1.png
+.. _Standard: ../introduction/standtrd.html
 
 .. |MPR121| image:: ../_static/basic01.png
 .. _MPR121: ../introduction/mpr4.html
@@ -36,7 +36,62 @@ Product Categories
 .. |To be continued| image:: ../_static/tobe06.png
 .. _To be continued: ../introduction/tobe06.html
 
+Expansion module
+====================
 
+====================  ====================  ====================
+  |Button|_             |Buzzer|_               |WS2812_RGB|_
+--------------------  --------------------  --------------------
+  `Button`_             `Buzzer`_               `WS2812_RGB`_
+--------------------  --------------------  --------------------
+|DHT12_Sensor|_        |Pir|_                |Photoresistance|_
+--------------------  --------------------  --------------------
+`DHT12_Sensor`_        `Pir`_                `Photoresistance`_
+--------------------  --------------------  --------------------
+|Relay|_                |Raindrop|_           |Door_Contact|_
+--------------------  --------------------  --------------------
+`Relay`_                `Raindrop`_           `Door_Contact`_
+--------------------  --------------------  --------------------
+|Potentiometer|_        |Soil_Moisture|_      |To be continued|_
+--------------------  --------------------  --------------------
+`Potentiometer`_        `Soil_Moisture`_      `To be continued`_
+====================  ====================  ====================
+
+.. |Button| image:: ../_static/button1.png
+.. _Button: ../introduction/button1.html
+
+.. |Buzzer| image:: ../_static/buzzer2.png
+.. _Buzzer: ../introduction/buzzer2.html
+
+.. |DHT12_Sensor| image:: ../_static/dht3.png
+.. _DHT12_Sensor: ../introduction/dht3.html
+
+.. |WS2812_RGB| image:: ../_static/rgb4.png
+.. _WS2812_RGB: ../introduction/rgb4.html
+
+.. |Pir| image:: ../_static/pir5.png
+.. _Pir: ../introduction/pir5.html
+
+.. |Photoresistance| image:: ../_static/photo6.png
+.. _Photoresistance: ../introduction/photo6.html
+
+.. |Relay| image:: ../_static/relay7.png
+.. _Relay: ../introduction/relay7.html
+
+.. |Raindrop| image:: ../_static/raindrop8.png
+.. _Raindrop: ../introduction/raindrop8.html
+
+.. |Door_Contact| image:: ../_static/door9.png
+.. _Door_Contact: ../introduction/door9.html
+
+.. |Potentiometer| image:: ../_static/poten10.png
+.. _Potentiometer: ../introduction/poten10.html
+
+.. |Soil_Moisture| image:: ../_static/soil11.png
+.. _Soil_Moisture: ../introduction/soil11.html
+
+.. |To be continued| image:: ../_static/tobe06.png
+.. _To be continued: ../introduction/tobe06.html
 
 Hardware overview
 ==================
