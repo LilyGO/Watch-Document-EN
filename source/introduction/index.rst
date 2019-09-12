@@ -52,6 +52,10 @@ Expansion module
 --------------------  --------------------  --------------------
 `Relay`_                `Raindrop`_           `Door_Contact`_
 --------------------  --------------------  --------------------
+|Microphone|_           |Servo|_              |Dou_Function|_
+--------------------  --------------------  --------------------
+`Microphone`_           `Servo`_              `Dou_Function`_
+--------------------  --------------------  --------------------
 |Potentiometer|_        |Soil_Moisture|_      |To be continued|_
 --------------------  --------------------  --------------------
 `Potentiometer`_        `Soil_Moisture`_      `To be continued`_
@@ -93,6 +97,15 @@ Expansion module
 .. |To be continued| image:: ../_static/tobe06.png
 .. _To be continued: ../introduction/tobe06.html
 
+.. |Microphone| image:: ../_static/mic.png
+.. _Microphone: ../introduction/mic12.html
+
+.. |Servo| image:: ../_static/servo.png
+.. _Servo: ../introduction/servo13.html
+
+.. |Dou_Function| image:: ../_static/dou.png
+.. _Dou_Function: ../introduction/dou14.html
+
 .. toctree::
    :hidden:
    :maxdepth: 2
@@ -107,6 +120,9 @@ Expansion module
    Relay <relay7>
    Raindrop <raindrop8>
    Door_Contact <door9>
+   Microphone <mic12>
+   Servo <servo13>
+   Dou_Function <dou14>
    Potentiometer <poten10>
    Soil_Moisture <soil11>
 
