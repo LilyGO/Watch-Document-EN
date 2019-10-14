@@ -6,7 +6,7 @@ T-Watch Standard
 .. image:: ../_static/std1.png
 
 
-1.Description
+Description
 ==================
 
 The T-Watch Standard is an ESP32-based programmable watch kit consisting of a Core PCB and a Standard backplane.
@@ -16,7 +16,7 @@ You can even program T-Watch Standard with Arduino, ESP-IDF or MicroPython.
 
 
 
-2.Feature
+Feature
 ==================
 
 - Main chip: ESP32, dual core MCU (integrated dual mode Bluetooth/wifi), PMU power management
@@ -29,7 +29,7 @@ You can even program T-Watch Standard with Arduino, ESP-IDF or MicroPython.
 - Support for expandable module use
 
 
-3.Pin details
+Pin details
 ==================
 
 Display
@@ -64,7 +64,7 @@ Max30102 heart rate
  GPIO22          SCL              Max30102_SCL
 =============== ==============  ====================================
 
-4.Demo program 
+Demo program 
 ================
 
  - `Github Source code <https://github.com/Xinyuan-LilyGO/twatch-series-modules/tree/master/twatch_heart_rate/>`_
