@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>&lt;no title&gt; &mdash; T-Watch Docs</title>
+  <title>7. T-Watch PCM5102A &mdash; T-Watch Docs</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="1. Button" href="../module/button1.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="sx127606.html" /> 
+    <link rel="next" title="&lt;no title&gt;" href="nfc.html" />
+    <link rel="prev" title="6. T-Watch SX1276" href="sx127606.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,8 +83,34 @@
               
             
             
-              <ul>
-<li class="toctree-l1"><a class="reference internal" href="../index.html">Introduction</a></li>
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Introduction</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#product-categories">Product Categories</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="standtrd.html">1. Standard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sim02.html">2. SIM800L</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gps8m03.html">3. GPS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mpr4.html">4. MPR121</a></li>
+<li class="toctree-l3"><a class="reference internal" href="s76g05.html">5. Lora+GPS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sx127606.html">6. SX1276</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">7. MP3</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#description">7.1. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#feature">7.2. Feature</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pin-details">7.3. Pin details</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#demo-program">7.4. Demo program</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="car.html">8. Car</a></li>
+<li class="toctree-l3"><a class="reference internal" href="speaker.html">9. Max98357A</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#expansion-module">Expansion module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#hardware-overview">Hardware overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#technical-parameters">1.Technical Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#appearance-specifications">2. Appearance specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#component-layout">3. Component layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#pin-definition">4. Pin definition</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../get-started/index.html">Getting started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../basics/index.html">Basics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
@@ -137,7 +163,7 @@
         
           <li><a href="../index.html">T-Watch Introduction</a> &raquo;</li>
         
-      <li>&lt;no title&gt;</li>
+      <li>7. T-Watch PCM5102A</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -156,7 +182,143 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  
+  <div class="section" id="t-watch-pcm5102a">
+<h1>7. T-Watch PCM5102A<a class="headerlink" href="#t-watch-pcm5102a" title="Permalink to this headline">¶</a></h1>
+<img alt="../../_images/mp301.png" src="../../_images/mp301.png" />
+<div class="section" id="description">
+<h2>7.1. Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>The T-Watch SX1276 is an ESP32-based programmable watch kit consisting of a Core PCB and SX1276 backplane.
+You can even program the T-Watch SX1276 with Arduino, ESP-IDF or MicroPython.</p>
+<p>The SX1276 transceivers feature the LoRa® long range modem that provides ultra-long
+range spread spectrum communication and high interference immunity whilst minimising current consumption.</p>
+<img alt="../../_images/model41.jpg" src="../../_images/model41.jpg" />
+</div>
+<div class="section" id="feature">
+<h2>7.2. Feature<a class="headerlink" href="#feature" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Main chip: ESP32, dual core MCU (integrated dual mode Bluetooth/wifi), PMU power management</p></li>
+<li><p>Display: 1.54 inch LCD capacitive touch screen</p></li>
+<li><p>Sensor: BMA423 three-axis accelerometer, built-in step counting algorithm, activity recognition / tracking, advanced gesture recognition, etc.</p></li>
+<li><p>Combination kit: lithium battery, design open mold, and thick strap, and black and white</p></li>
+<li><p>Development platform: ESP-IDF (native SDK), Arduino, Lua, MicroPython, Scratch</p></li>
+<li><p>Support for expandable module use</p></li>
+</ul>
+</div>
+<div class="section" id="pin-details">
+<h2>7.3. Pin details<a class="headerlink" href="#pin-details" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="display">
+<h3>7.3.1. Display<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 22%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ESP32</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>GPIO05</p></td>
+<td><p>CS</p></td>
+<td><p>TFT_CS</p></td>
+</tr>
+<tr class="row-odd"><td><p>GPIO18</p></td>
+<td><p>SCLK</p></td>
+<td><p>TFT_SCLK</p></td>
+</tr>
+<tr class="row-even"><td><p>GPIO19</p></td>
+<td><p>MOSI</p></td>
+<td><p>TFT_MOSI</p></td>
+</tr>
+<tr class="row-odd"><td><p>GPIO27</p></td>
+<td><p>DC</p></td>
+<td><p>TFT_DC</p></td>
+</tr>
+<tr class="row-even"><td><p>GPIO12</p></td>
+<td><p>BL</p></td>
+<td><p>TFT_BL</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="pcm5102a">
+<h3>7.3.2. PCM5102A<a class="headerlink" href="#pcm5102a" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 22%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ESP32</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>GPIO25</p></td>
+<td><p>LCK</p></td>
+<td><p>PCM5102A_LCK</p></td>
+</tr>
+<tr class="row-odd"><td><p>GPIO26</p></td>
+<td><p>BCK</p></td>
+<td><p>PCM5102A_BCK</p></td>
+</tr>
+<tr class="row-even"><td><p>GPIO33</p></td>
+<td><p>DIN</p></td>
+<td><p>PCM5102A_DIN</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="tf-card">
+<h3>7.3.3. TF Card<a class="headerlink" href="#tf-card" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 22%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ESP32</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>GPIO13</p></td>
+<td><p>CS</p></td>
+<td><p>TF_CS</p></td>
+</tr>
+<tr class="row-odd"><td><p>GPIO15</p></td>
+<td><p>MOSI</p></td>
+<td><p>TF_MOSI</p></td>
+</tr>
+<tr class="row-even"><td><p>GPIO02</p></td>
+<td><p>MISO</p></td>
+<td><p>TF_MISO</p></td>
+</tr>
+<tr class="row-odd"><td><p>GPIO14</p></td>
+<td><p>SCLK</p></td>
+<td><p>TF_SCLK</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="demo-program">
+<h2>7.4. Demo program<a class="headerlink" href="#demo-program" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://github.com/Xinyuan-LilyGO/twatch-series-modules/blob/master/twatch_s7xg/twatch_s7xg.ino">Github Source code</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
 
            </div>
            
@@ -165,10 +327,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../module/button1.html" class="btn btn-neutral float-right" title="1. Button" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="nfc.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="sx127606.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="sx127606.html" class="btn btn-neutral float-left" title="6. T-Watch SX1276" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

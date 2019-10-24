@@ -37,7 +37,7 @@ Display
  GPIO05           CS             TFT_CS
  GPIO18           SCLK           TFT_SCLK
  GPIO19           MOSI           TFT_MOSI
- GPIO27           DC             FT_DC
+ GPIO27           DC             TFT_DC
  GPIO12           BL             TFT_BL
 =============== ==============  ====================================
 

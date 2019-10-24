@@ -17,13 +17,13 @@ Product Categories
 ------------------  ------------------  ------------------
 `MPR121`_              `Lora+GPS`_       `SX1276`_
 ------------------  ------------------  ------------------
-|MP3|_                 |NFC|_             |Car|_
+|MP3|_                 |Max98357A|_             |Car|_
 ------------------  ------------------  ------------------
-`MP3`_                  `NFC`_            `Car`_
+`MP3`_                  `Max98357A`_            `Car`_
 ------------------  ------------------  ------------------
-|Quick_Car|_           |Heart_Rate|_        |Speaker|_
+|Quick_Car|_           |Heart_Rate|_        |NFC|_
 ------------------  ------------------  ------------------
-`Quick_Car`_           `Heart_Rate`_        `Speaker`_
+`Quick_Car`_           `Heart_Rate`_        `NFC`_
 ------------------  ------------------  ------------------
 |Game|_             |To be continued|_ 
 ------------------  ------------------  ------------------
@@ -66,8 +66,8 @@ Product Categories
 .. |Heart_Rate| image:: ../_static/max.png
 .. _Heart_Rate: ../introduction/product/heart.html
 
-.. |Speaker| image:: ../_static/speaker.png
-.. _Speaker: ../introduction/product/speaker.html
+.. |Max98357A| image:: ../_static/speaker.png
+.. _Max98357A: ../introduction/product/speaker.html
 
 .. |Game| image:: ../_static/game.png
 .. _Game: ../introduction/product/game.html
@@ -84,11 +84,11 @@ Product Categories
    Lora+GPS <product/s76g05>
    SX1276 <product/sx127606>
    MP3 <product/pcm>
-   NFC <product/nfc>
+   Max98357A <product/speaker>
    Car <product/car>
    Quick_Car <product/quick>
    Heart_Rate <product/heart>
-   Speaker <product/speaker>
+   NFC <product/nfc>
    Game <product/game>
 
 Expansion module
