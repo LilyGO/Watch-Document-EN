@@ -11,7 +11,7 @@ Application download
 
 * Demo example
 
-    * :download:`Software <../_static/software.zip>`
+    * :download:`Code <../_static/Code.zip>`
 
 Document download
 ******************
