@@ -93,7 +93,7 @@ Product Categories
    Heart_Rate <product/heart>
    NFC <product/nfc>
    Game <product/game>
-   Game <product/2020>
+   2020 <product/2020>
 
 Expansion module
 ====================
