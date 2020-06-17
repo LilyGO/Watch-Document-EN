@@ -25,9 +25,9 @@ Product Categories
 ------------------  ------------------  ------------------
 `Quick_Car`_           `Heart_Rate`_        `NFC`_
 ------------------  ------------------  ------------------
-|Game|_             |To be continued|_ 
+|Game|_                  |2020|_        |To be continued|_  
 ------------------  ------------------  ------------------
-`Game`_             `To be continued`_
+`Game`_                  `2020`_        `To be continued`_
 ==================  ==================  ==================
 
 .. |Standard| image:: ../_static/std1.png
@@ -72,6 +72,9 @@ Product Categories
 .. |Game| image:: ../_static/game.png
 .. _Game: ../introduction/product/game.html
 
+.. |2020| image:: ../_static/t2020.png
+.. _2020: ../introduction/product/2020.html
+
 .. toctree::
    :hidden:
    :maxdepth: 2
@@ -90,6 +93,7 @@ Product Categories
    Heart_Rate <product/heart>
    NFC <product/nfc>
    Game <product/game>
+   Game <product/2020>
 
 Expansion module
 ====================
