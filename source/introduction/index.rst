@@ -252,7 +252,7 @@ Category
   - Operating Voltage：3.3V
 .. note::
   
-  ESP32 was created and developed by Lexin Information Technology, a Shanghai-based Chinese company, and manufactured by TSMC using 40-nanometer technology.
+  ESP32 is created and developed by Espressif Systems, a Shanghai-based Chinese company, and manufactured by TSMC using 40-nanometer technology.
   It is the successor to the ESP8266 microcontroller.
 
 Boot demo video

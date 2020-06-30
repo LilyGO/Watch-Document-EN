@@ -2,7 +2,7 @@
 Getting Started
 ================
 
-This document is intended to guide users on how to use T-Wath
+This document is intended to guide users on how to use T-Watch
 
 .. figure:: ../../_static/get_started1.jpg
    :scale: 100
