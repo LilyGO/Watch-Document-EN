@@ -15,7 +15,7 @@ Related Links
 
 - Arduino official website: https://www.arduino.cc/
 
-- ESP-IDF Guide: https://docs.espressif.com/projects/esp-idf/zh_CN/latest/index.html
+- ESP-IDF Guide: https://docs.espressif.com/projects/esp-idf/en/latest/index.html
 
 - Arduino-esp32: https://github.com/espressif/arduino-esp32
 
