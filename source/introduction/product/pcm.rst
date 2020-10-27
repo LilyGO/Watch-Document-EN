@@ -8,11 +8,7 @@ T-Watch PCM5102A
 Description
 ==================
 
-The T-Watch SX1276 is an ESP32-based programmable watch kit consisting of a Core PCB and SX1276 backplane.
-You can even program the T-Watch SX1276 with Arduino, ESP-IDF or MicroPython.
 
-The SX1276 transceivers feature the LoRa® long range modem that provides ultra-long 
-range spread spectrum communication and high interference immunity whilst minimising current consumption.
 
 .. image:: ../../_static/model4.jpg
 
