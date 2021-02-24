@@ -21,19 +21,19 @@ T-Watch programmable smart watch is a newly developed self-developed product of 
 ==================  ====================  ==================
 
 .. |Introduction| image:: _static/get-started1.gif
-.. _Introduction: Introduction/index.html
+.. _Introduction: introduction/index.html
 
 .. |Getting started| image:: _static/api-reference.gif 
 .. _Getting started: get-started/index.html
 
 .. |Basics| image:: _static/hw-reference.gif
-.. _Basics: Basics/index.html
+.. _Basics: basics/index.html
 
 .. |Advanced| image:: _static/api-guides.gif
-.. _Advanced: Advanced/index.html
+.. _Advanced: advanced/index.html
 
 .. |Download| image:: _static/contribute.gif
-.. _Download: Download/index.html
+.. _Download: download/index.html
 
 .. |Related links| image:: _static/resources.gif
 .. _Related links: related-links/index.html
