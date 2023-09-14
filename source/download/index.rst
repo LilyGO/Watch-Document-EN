@@ -41,8 +41,8 @@ Driver Download
 
     * :download:`CP2104-Win10 <https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip>`
     * :download:`CP2104-Win7 <https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip>`
-    * :download:`CP2104-Linux <https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip>`
-    * :download:`CP2104-Mac <https://www.silabs.com/documents/login/software/Linux_3.x.x_4.x.x_VCP_Driver_Source.zip>`  
+    * :download:`CP2104-Mac <https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip>`
+    * :download:`CP2104-Linux <https://www.silabs.com/documents/login/software/Linux_3.x.x_4.x.x_VCP_Driver_Source.zip>`  
 * installation
 
 .. _firmware_download:    
